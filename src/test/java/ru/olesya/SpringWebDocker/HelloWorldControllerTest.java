@@ -14,6 +14,6 @@ class HelloWorldControllerTest {
     @Test
     void hello() {
         String body = controller.hello().getBody();
-        assertEquals("Hello, world!", body);
+        assertEquals("Hello, world", body);
     }
 }

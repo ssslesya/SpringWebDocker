@@ -12,8 +12,4 @@ public class HelloWorldController {
         return new ResponseEntity<>("Hello, world!", HttpStatus.OK);
     }
 
-    @GetMapping("/health")
-    public ResponseEntity<HttpStatus> health() {
-        return ResponseEntity.ok(HttpStatus.OK);
-    }
 }
